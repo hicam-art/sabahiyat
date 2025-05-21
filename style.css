@@ -1,12 +1,25 @@
 .container{
     width: 95%;
-    height: 93vh;
+    height: 95vh;
     border:1px solid;
     border-radius: 5px;
     padding: 0;
     margin: 0;
-    position: absolute;
     position: fixed;
+   
+}
+
+.contain{
+   
+    width: 90%;
+    height: 85vh;
+    border:1px solid;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+   
+
+    overflow: scroll;
 }
 .meni{
     text-align: center;
@@ -21,12 +34,16 @@
 padding: 0%;
 margin: 0;
     width: 94%;
-    height:65vh;
-border: 1px solid;
-border-radius: 5px;
-margin-top: 2vh;
-overflow: scroll;
+    height:40vh;
+
  transition: 0.3s;
+}
+.image{
+    width: 93%;
+    height: 20vh;
+    border:  solid 1px;
+    border-radius: 5px;
+    margin-top: 1vh;
 }
 
 button{
@@ -35,12 +52,11 @@ button{
     border-radius: 5px;
 
 }
-#back{
-    width: 100%;
- 
-   
-   
+.back{
+    width: inherit;
+    height: inherit; 
 }
+
 .but{
    
     width: 93%;
