@@ -9,12 +9,13 @@
     position: fixed;
 }
 .meni{
+    text-align: center;
     width: 94%;
     height: 5vh;
     border: 1px solid;
     border-radius: 5px;
     margin-top: 2vh;
-    font-size: 60%;
+    font-size: 50%;
 }
 .tot{
 padding: 0%;
@@ -36,6 +37,7 @@ button{
 }
 #back{
     width: 100%;
+ 
    
    
 }
