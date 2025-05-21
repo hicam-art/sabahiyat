@@ -7,6 +7,8 @@
     margin: 0;
     position: fixed;
    
+   
+   
 }
 
 .contain{
@@ -29,6 +31,7 @@
     border-radius: 5px;
     margin-top: 2vh;
     font-size: 50%;
+     filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.658));
 }
 .tot{
 padding: 0%;
@@ -44,6 +47,7 @@ margin: 0;
     border:  solid 1px;
     border-radius: 5px;
     margin-top: 1vh;
+   
 }
 
 button{
@@ -58,9 +62,9 @@ button{
 }
 
 .but{
-   
+   filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.425));
     width: 93%;
-    height: 15vh;
+    height: 18vh;
     border: 1px solid;
     border-radius: 5px;
     margin-top: 1vh;
